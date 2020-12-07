@@ -14,7 +14,7 @@ import java.net.URL;
 public class MenuBarController {
   public void showSample1(Event event) throws IOException {
     BorderPane mainPanel = AppLauncher.getMainModule().getMainPane();
-    URL sample1FXML = this.getClass().getResource("../../modules/sample1/sample1.fxml");
+    URL sample1FXML = MenuBarController.class.getResource("/org/technagreek/java/enchald/modules/sample1/sample1.fxml");
 
     FXMLLoader loader = new FXMLLoader(sample1FXML);
 
@@ -24,7 +24,7 @@ public class MenuBarController {
 
   public void showSample2(Event event) throws IOException {
     BorderPane mainPanel = AppLauncher.getMainModule().getMainPane();
-    URL sample1FXML = this.getClass().getResource("../../modules/sample2/sample2.fxml");
+    URL sample1FXML = MenuBarController.class.getResource("/org/technagreek/java/enchald/modules/sample2/sample2.fxml");
 
     FXMLLoader loader = new FXMLLoader(sample1FXML);
 

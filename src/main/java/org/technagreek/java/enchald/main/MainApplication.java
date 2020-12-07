@@ -29,7 +29,7 @@ public class MainApplication extends Application implements MainModule {
 
   public static void showAbout() throws IOException {
     Stage stage = new Stage();
-    AnchorPane root = FXMLLoader.load(MainApplication.class.getResource("../core/help/About.fxml"));
+    AnchorPane root = FXMLLoader.load(MainApplication.class.getResource("/org/technagreek/java/enchald/core/help/About.fxml"));
     stage.setScene(new Scene(root));
     stage.setTitle("About");
     stage.initModality(Modality.WINDOW_MODAL);

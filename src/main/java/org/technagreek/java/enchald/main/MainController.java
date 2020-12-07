@@ -1,5 +1,6 @@
 package org.technagreek.java.enchald.main;
 
+
 import javafx.fxml.FXML;
 import javafx.scene.paint.Color;
 import org.technagreek.java.enchald.core.statusbar.StatusBarController;
