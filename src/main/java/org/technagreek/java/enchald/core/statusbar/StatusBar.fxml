@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml/1"
+          xmlns="http://javafx.com/javafx/10.0.2-internal" alignment="CENTER_LEFT"
+          maxHeight="1.7976931348623157E308"
+          maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0"
+
+          fx:controller="org.technagreek.java.enchald.core.statusbar.StatusBarController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="ALWAYS" percentWidth="90.0"/>
+        <ColumnConstraints hgrow="ALWAYS" percentWidth="10.0"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+    </rowConstraints>
+    <Label fx:id="statusBarText" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"/>
+    <ProgressBar fx:id="statusBarProgress" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+                 progress="0.0" GridPane.columnIndex="1"/>
+</GridPane>
