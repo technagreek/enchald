@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<MenuBar xmlns:fx="http://javafx.com/fxml/1" BorderPane.alignment="CENTER"
+         xmlns="http://javafx.com/javafx/10.0.2-internal"
+         fx:controller="org.technagreek.java.enchald.core.menubar.MenuBarController">
+    <Menu mnemonicParsing="false" text="File">
+        <MenuItem mnemonicParsing="false" onAction="#showSample1" text="Sample 1"/>
+        <MenuItem mnemonicParsing="false" onAction="#showSample2" text="Sample 2"/>
+        <MenuItem mnemonicParsing="false" onAction="#onClickCloseMenu" text="Close"/>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Help">
+        <MenuItem mnemonicParsing="false" onAction="#showAbout" text="About"/>
+    </Menu>
+</MenuBar>

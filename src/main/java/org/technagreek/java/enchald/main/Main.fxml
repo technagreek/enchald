@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.Scene?>
+<Scene xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal"
+       fx:controller="org.technagreek.java.enchald.main.MainController">
+    <BorderPane prefHeight="556.0" prefWidth="1000.0">
+        <top>
+            <fx:include fx:id="menuBar" source="../core/menubar/MenuBar.fxml"/>
+        </top>
+        <center>
+            <Pane id="centerScene" BorderPane.alignment="CENTER">
+                <Label layoutX="173.0" layoutY="100.0" prefHeight="16.0" prefWidth="299.0" text="Welcome To Enchald!"/>
+            </Pane>
+        </center>
+        <bottom>
+            <fx:include fx:id="statusBar" source="../core/statusbar/StatusBar.fxml"/>
+        </bottom>
+    </BorderPane>
+</Scene>
