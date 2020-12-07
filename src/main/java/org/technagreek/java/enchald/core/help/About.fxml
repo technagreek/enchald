@@ -6,7 +6,7 @@
 <AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="AboutPane" prefHeight="210.0" prefWidth="551.0"
             xmlns="http://javafx.com/javafx/10.0.2-internal">
     <Label layoutX="54.0" layoutY="65.0" prefHeight="16.0" prefWidth="327.0" text="Enchald sample for Java FX"/>
-    <Label layoutX="54.0" layoutY="96.0" text="v1.0.0.1"/>
+    <Label layoutX="54.0" layoutY="96.0" text="v1.0.0.2"/>
     <Label layoutX="54.0" layoutY="31.0" text="About">
         <font>
             <Font size="14.0"/>
